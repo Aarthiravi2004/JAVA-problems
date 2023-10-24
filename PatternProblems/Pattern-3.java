@@ -8,7 +8,7 @@ class Main{
            int number;
            if(i>n)
            {
-               number = (n*2)-i+2;
+               number = (n*2)-i+1;
            }
            else
            {
@@ -40,8 +40,6 @@ N = 4
        2 1 2
      3 2 1 2 3
    4 3 2 1 2 3 4
- 5 4 3 2 1 2 3 4 5
-   4 3 2 1 2 3 4 
      3 2 1 2 3 
        2 1 2
          1
