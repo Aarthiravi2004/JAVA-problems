@@ -16,7 +16,7 @@ class Main{
            }
            for(int space=0;space <= n-number;space++)
            {
-               System.out.print(" ");
+               System.out.print("  "); //2 spaces here
            }
            
            for(int j=number;j>=1;j--)
