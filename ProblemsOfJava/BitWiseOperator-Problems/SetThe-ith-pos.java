@@ -1,6 +1,6 @@
 class HelloWorld {
     public static void main(String[] args) {
-       int n= 16;
+       int n= 10;
        int pos =2;
        System.out.print(bitWise(n,pos));
     }
@@ -11,8 +11,8 @@ class HelloWorld {
 }
 
 Explanation:
-16 = 1 0 0 0 
+10 = 1 0 1 0 
      0 1 0 0
   -------------
-     1 1 0 0         // OR operation 
+     1 1 1 0         // OR operation   Ans: 14
   -------------
