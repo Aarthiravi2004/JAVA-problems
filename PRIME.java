@@ -11,7 +11,7 @@ public class Prime{
     if(n<=1){
       return false;
     }
-    while(c*c <= n){    //avoiding the repeated multiplcation eg: 8*2 == 2*8
+    while(c <= Math.sqrt(n)){    //avoiding the repeated multiplcation eg: 8*2 == 2*8
       if(n%c==0){
         return false;
       }
