@@ -3,12 +3,12 @@ class Main{
     public static void main(String[] args)
     {
        int n = 4;
-       for(int i=1;i<=n*2;i++)
+       for(int i=1;i<n*2;i++)
        {
            int number;
            if(i>n)
            {
-               number = (n*2)-i+1;
+               number = (n*2)-i;
            }
            else
            {
